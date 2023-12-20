@@ -1,0 +1,29 @@
+.projects-container {
+    padding: 100px; /* Adds padding to the top and sides */
+    min-height: 100vh;
+}
+
+.projects-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'YourFontFamily', Consolas;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr)); 
+    gap: 20px; /* Space between items */
+    grid-auto-rows: auto;
+    margin: auto;
+    align-items: start;
+    row-gap: 100px;
+    column-gap: 100px;
+}
+
+@media (max-width: 600px) {
+    .projects-grid {
+        grid-template-columns: 1fr; /* Single column on small screens */
+    }
+}

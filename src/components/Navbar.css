@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=YourFontFamily&display=swap');
+
+.Navbar {
+  display: flex;
+  justify-content: space-evenly;
+  height: 50px;
+  line-height: 50px;
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  border: 1px solid #ffffff; /* Added border here */
+  border-radius: 10px; /* Add this line to round Navbar borders */
+}
+
+.Navbar a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 0.3s ease-out;
+  text-align:center;
+  flex: 1 0 0;
+  display: block; 
+  background-color: rgba(0, 0, 0, 0); 
+  font-family: 'YourFontFamily', Consolas;
+  font-weight: 600;
+}
+
+.Navbar a:hover {
+  color: rgb(37, 22, 28)             ;                                       ;
+  background-color: rgb(255, 255, 255);
+  transform: scale(1.2);
+  border-radius: 10px; /* Add this line to round Navbar borders */
+}
+
+
+.Navbar a.active {
+  background-color: white; /* Change background color for active link */
+  border-radius: 10px; /* Add this line to round Navbar borders */
+  color: rgb(37, 22, 28);     
+}
