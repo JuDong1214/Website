@@ -8,7 +8,7 @@ const Navbar = () => {
             <NavLink exact to="/" activeClassName="Navbar-active">Home</NavLink>
             <NavLink exact to="/about" activeClassName="Navbar-active">About</NavLink>
             <NavLink exact to="/projects" activeClassName="Navbar-active">Projects</NavLink>
-            <a href="https://judong1214.github.io/Website/resume.pdf" className="Navbar-link"  rel="noopener noreferrer">Resume</a>
+            <a href="https://judong1214.github.io/Website/Julians_Resume_2023_2024.pdf" className="Navbar-link"  rel="noopener noreferrer">Resume</a>
         </nav>
     )
 }
