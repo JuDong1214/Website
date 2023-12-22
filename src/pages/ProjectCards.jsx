@@ -26,7 +26,7 @@ class Cards extends Component {
                 <Card githubUrl="https://github.com/JuDong1214/Website" 
                     imgsrc={website}
                     title = "Personal Website"
-                    skills = 'React, JavaScript, Bootstrap'
+                    skills = 'React, JavaScript, CSS, Bootstrap'
                     text="I designed and created my personal website to introduce who I am and to display my projects." />
                 <Card githubUrl="https://github.com/JuDong1214/SpeedTyper" 
                     imgsrc={speed}
