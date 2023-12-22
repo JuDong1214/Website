@@ -1,5 +1,5 @@
 .projects-container {
-    padding: 100px; /* Adds padding to the top and sides */
+    padding: 40px; /* Adds padding to the top and sides */
     min-height: 100vh;
 }
 
@@ -7,7 +7,7 @@
     text-align: center;
     margin-bottom: 20px;
     color: #ffffff;
-    font-size: 50px;
+    font-size: 45px;
     font-family: 'YourFontFamily', Consolas;
     opacity: 0;
     transition: opacity 0.25s ease-in-out;
@@ -16,23 +16,23 @@
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    grid-template-columns: repeat(3, minmax(0, 1fr)); 
     gap: 20px; /* Space between items */
     grid-auto-rows: auto;
     margin: auto;
     align-items: start;
     row-gap: 100px;
-    column-gap: 100px;
+    column-gap: 80px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     .projects-grid {
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust for medium screens */
+        grid-template-columns: repeat(2, minmax(0, 1fr)); /* Adjust for medium screens */
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 800px) {
     .projects-grid {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust for smaller screens */
+        grid-template-columns: repeat(1, minmax(0, 1fr)); /* Adjust for smaller screens */
     }
 }
