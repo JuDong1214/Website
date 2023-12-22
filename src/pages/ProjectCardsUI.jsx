@@ -10,6 +10,9 @@ const  Card = props => {
             <div className="card-body text-dark">
                 <h4 style={{fontSize: '20px'}} className="card-title">{props.title}</h4>
                 <h4 style={{fontSize: '15px'}} className="card-skills">{props.skills}</h4>
+                <a href={props.link} className="card-skills" target="_blank" rel="noopener noreferrer">
+                    {props.link}
+                </a>
                 <p style={{fontSize: '20px'}} className="card-text text-secondary">
                     {props.text}
                 </p>

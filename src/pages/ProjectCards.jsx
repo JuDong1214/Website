@@ -32,24 +32,32 @@ class Cards extends Component {
                     imgsrc={speed}
                     title = "Speed Typer Game"
                     skills = 'JavaScript, HTML, CSS'
-                    text="This typing game allowed me to create something that I enjoy playing all while utilizing and practicing the listed technologies." />
+                    text="This typing game allowed me to create something that I enjoy playing all while utilizing and practicing some
+                          technologies I wanted to get more and more familiar with." />
                 <Card githubUrl="https://github.com/JuDong1214/NBAModel" 
                     imgsrc={NBA}
                     title = "NBA Betting Model"
                     skills = "Python, Selenium"
-                    text="I developed a NBA score prediction model using webscrapped data from Selenium. 
-                          This project allowed me to combine my love for the NBA and my passion for coding and data analytics
-                          to develop something exciting. " />
+                    text="I developed a NBA score prediction model using webscrapped data from Selenium. Combined with researched statistics and other models, 
+                          I developed an algorithm to predict NBA scores. This project allowed me to combine my love for the NBA and my passion for coding and data analytics
+                          to develop something exciting! " />
                 <Card githubUrl="https://github.com/JuDong1214/TACG-VAR" 
                     imgsrc={TACGVAR}
                     title = "TACG-VAR"
                     skills = "Python, Bash"
-                    text="" />
+                    text="I was a part of a bioinformatics research team and we published 2 peer-reviewed papers together. This project was for one of the papers
+                          where I had to develop python and bash pipelines to analyze and annotate variants across different genetic traits. This was
+                          my first big coding project!" 
+                    link = "https://pubmed.ncbi.nlm.nih.gov/35546387/"/>
+                    
                 <Card githubUrl="https://github.com/JuDong1214/TACG-VAR" 
                     imgsrc={ETH}
                     title = "BuyNSell"
                     skills = "Python, Matlab"
-                    text="" />
+                    text="In my freshman year at the University of Michigan, I was really intruiged in the financial market, so my friend and I
+                          decided to try to make projects revolving crypto currency. As a result, we developed and coded our first crypo trading model 
+                          along with a sliding candle stick graph to visualize the cryptocurrency. It is a relatively simple model but it is a successful 
+                          result that shows our interest in the financial industry!" />
                 <Card githubUrl="https://github.com/JuDong1214" 
                     imgsrc={soon}
                     title = "Project in Development"
