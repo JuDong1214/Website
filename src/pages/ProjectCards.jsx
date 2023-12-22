@@ -27,17 +27,19 @@ class Cards extends Component {
                     imgsrc={website}
                     title = "Personal Website"
                     skills = 'React, JavaScript, Bootstrap'
-                    text="" />
+                    text="I designed and created my personal website to introduce who I am and to display my projects." />
                 <Card githubUrl="https://github.com/JuDong1214/SpeedTyper" 
                     imgsrc={speed}
                     title = "Speed Typer Game"
                     skills = 'JavaScript, HTML, CSS'
-                    text="" />
+                    text="This typing game allowed me to create something that I enjoy playing all while utilizing and practicing the listed technologies." />
                 <Card githubUrl="https://github.com/JuDong1214/NBAModel" 
                     imgsrc={NBA}
                     title = "NBA Betting Model"
                     skills = "Python, Selenium"
-                    text="" />
+                    text="I developed a NBA score prediction model using webscrapped data from Selenium. 
+                          This project allowed me to combine my love for the NBA and my passion for coding and data analytics
+                          to develop something exciting. " />
                 <Card githubUrl="https://github.com/JuDong1214/TACG-VAR" 
                     imgsrc={TACGVAR}
                     title = "TACG-VAR"

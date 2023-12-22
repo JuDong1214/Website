@@ -37,7 +37,7 @@
     max-width: 1200px; 
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 600px) {
     .card {
         max-width: 100%; /* Full width on smaller screens */
     }
