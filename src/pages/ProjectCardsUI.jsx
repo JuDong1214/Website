@@ -9,6 +9,7 @@ const  Card = props => {
             </div>
             <div className="card-body text-dark">
                 <h4 style={{fontSize: '20px'}} className="card-title">{props.title}</h4>
+                <h4 style={{fontSize: '15px'}} className="card-skills">{props.skills}</h4>
                 <p style={{fontSize: '20px'}} className="card-text text-secondary">
                     {props.text}
                 </p>

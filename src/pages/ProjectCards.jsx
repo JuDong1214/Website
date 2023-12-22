@@ -1,7 +1,11 @@
 import React, { Component } from 'react'
 import Card from './ProjectCardsUI'
-import cme from './pics/cme.png'
-import aaa from './pics/aaa.jpg'
+import NBA from './pics/NBA.png'
+import website from './pics/website.png'
+import speed from './pics/speed.png'
+import TACGVAR from './pics/TACG-VAR.png'
+import ETH from './pics/ETH.png'
+import soon from './pics/soon.jpg'
 
 
 class Cards extends Component {
@@ -19,30 +23,36 @@ class Cards extends Component {
         return (
             // The container is positioned 3/4ths down the page and centered horizontally
             <div className="projects-grid" style={this.state.fadeInStyle}>
+                <Card githubUrl="https://github.com/JuDong1214/Website" 
+                    imgsrc={website}
+                    title = "Personal Website"
+                    skills = 'React, JavaScript, Bootstrap'
+                    text="" />
+                <Card githubUrl="https://github.com/JuDong1214/SpeedTyper" 
+                    imgsrc={speed}
+                    title = "Speed Typer Game"
+                    skills = 'JavaScript, HTML, CSS'
+                    text="" />
+                <Card githubUrl="https://github.com/JuDong1214/NBAModel" 
+                    imgsrc={NBA}
+                    title = "NBA Betting Model"
+                    skills = "Python, Selenium"
+                    text="" />
+                <Card githubUrl="https://github.com/JuDong1214/TACG-VAR" 
+                    imgsrc={TACGVAR}
+                    title = "TACG-VAR"
+                    skills = "Python, Bash"
+                    text="" />
+                <Card githubUrl="https://github.com/JuDong1214/TACG-VAR" 
+                    imgsrc={ETH}
+                    title = "BuyNSell"
+                    skills = "Python, Matlab"
+                    text="" />
                 <Card githubUrl="https://github.com/JuDong1214" 
-                    imgsrc={aaa}
-                    title = "American Automobile Association"
-                    text="Here, I worked on creating scripts to automate testing in the company's web applications. 
-                        Additionally, I aided in market research and design workshops to generating  innovative software and business concepts.Here, I worked on creating scripts to automate testing in the company's web applications. 
-                        Additionally, I aided in market research and design workshops to generating  innovative software and business concepts.Here, I worked on creating scripts to automate testing in the company's web applications. 
-                        Additionally, I aided in market research and design workshops to generating  innovative software and business concepts.Here, I worked on creating scripts to automate testing in the company's web applications. 
-                        Additionally, I aided in market research and design workshops to generating  innovative software and business concepts." />
-                <Card githubUrl="https://github.com/JuDong1214" 
-                    imgsrc={cme}
-                    title = "CME Group Inc."
-                    text="This internship allowed me to gain real world experience in machine learning and data analytics.
-                        Working at an exchange, I was immersed in the financial industry, truly learning a lot about trading and the financial market." />
-                <Card githubUrl="https://github.com/JuDong1214" 
-                    imgsrc={cme}
-                    title = "CME Group Inc."
-                    text="This internship allowed me to gain real world experience in machine learning and data analytics.
-                        Working at an exchange, I was immersed in the financial industry, truly learning a lot about trading and the financial market." />
-                <Card githubUrl="https://github.com/JuDong1214" 
-                    imgsrc={cme}
-                    title = "CME Group Inc."
-                    text="This internship allowed me to gain real world experience in machine learning and data analytics.
-                        Working at an exchange, I was immersed in the financial industry, truly learning a lot about trading and the financial market." />
-                
+                    imgsrc={soon}
+                    title = "Project in Development"
+                    skills = "Full-Stack"
+                    text="Personal project in development, will be finished soon" />
             </div>
         );
     }

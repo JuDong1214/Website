@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
+import Footer from './components/footer'
 import './App.css'; // Import the main CSS file
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
           <Route path='/Website/about' element={<About />} />
           <Route path='/Website/projects' element={<Projects />} />
         </Routes> 
+        <Footer />
       </Router>
     </div>
   )

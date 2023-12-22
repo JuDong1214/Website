@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=YourFontFamily&display=swap');
+
+.bottom{
+    padding: 8px;
+    text-align: center;
+    font-family: 'YourFontFamily', Consolas;
+}
+
+.icon-hover svg {
+    transition: transform 0.3s ease; /* Smooth transition for transform */
+  }
+  
+  .icon-hover:hover svg {
+    transform: scale(1.2); /* Increase size by 20% on hover */
+  }

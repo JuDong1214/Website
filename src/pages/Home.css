@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=YourFontFamily&display=swap');
 
 .home {
-    position: fixed;
+    position: static;
     top: 0%;
     left: 0;
     width: 100%;

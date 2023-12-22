@@ -8,7 +8,7 @@
   background-color: rgba(0, 0, 0, 0);
   width: 100%;
   box-sizing: border-box;
-  position: fixed;
+  position: relative;
   top: 0;
   z-index: 2;
   border: 1px solid #ffffff; /* Added border here */
@@ -30,7 +30,7 @@
 .Navbar a:hover {
   color: rgb(37, 22, 28)             ;                                       ;
   background-color: rgb(255, 255, 255);
-  transform: scale(1.2);
+  transform: scale(1.14);
   border-radius: 10px; /* Add this line to round Navbar borders */
 }
 
@@ -40,3 +40,4 @@
   border-radius: 10px; /* Add this line to round Navbar borders */
   color: rgb(37, 22, 28);     
 }
+

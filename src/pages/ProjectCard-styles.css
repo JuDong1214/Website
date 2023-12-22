@@ -1,6 +1,6 @@
 .card{
-    width: 100% !important;
-    max-width: 800px !important;
+    width: 100% ;
+    max-width: 900px ;
     margin: 20px auto !important;
 }
 
@@ -11,10 +11,16 @@
 .card-img-top {
     width: 100%; /* Responsive width */
     height: auto; /* Maintain aspect ratio */
-    max-width: 300px; /* Maximum image width */
-    max-height: 182px; /* Maximum image height */
-    object-fit: cover; /* Adjusts how the image fits in the container */
+    max-width: 100%; /* Maximum image width */
+    max-height: 900px; /* Maximum image height */
+    display: block;
+    margin: 0 auto;
 }
+
+.card-skills{
+    color: rgb(145, 123, 123);
+}
+
 
 .card-body{
     max-width: 1200px; 
