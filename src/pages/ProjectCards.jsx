@@ -6,6 +6,7 @@ import speed from './pics/speed.png'
 import TACGVAR from './pics/TACG-VAR.png'
 import ETH from './pics/ETH.png'
 import soon from './pics/soon.jpg'
+import odds from './pics/nbaodds.png'
 
 
 class Cards extends Component {
@@ -28,6 +29,12 @@ class Cards extends Component {
                     title = "Personal Website"
                     skills = 'React, JavaScript, CSS, Bootstrap'
                     text="I designed and created my personal website to introduce who I am and to display my projects." />
+                <Card githubUrl="https://github.com/JuDong1214/oddodds" 
+                    imgsrc={odds}
+                    title = "Sportsbook Odds Tracker"
+                    skills = 'MongoDB, Express, Axios, REST API, Node, React'
+                    text="This typing game allowed me to create something that I enjoy playing all while utilizing and practicing some
+                          technologies I wanted to get more and more familiar with." />
                 <Card githubUrl="https://github.com/JuDong1214/SpeedTyper" 
                     imgsrc={speed}
                     title = "Speed Typer Game"
