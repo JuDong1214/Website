@@ -33,8 +33,10 @@ class Cards extends Component {
                     imgsrc={odds}
                     title = "Sportsbook Odds Tracker"
                     skills = 'MongoDB, Express, Axios, REST API, Node, React'
-                    text="This typing game allowed me to create something that I enjoy playing all while utilizing and practicing some
-                          technologies I wanted to get more and more familiar with." />
+                    text="I created this application to compare the odds of NBA games for each sportsbook. This makes it easy
+                            to find the best odds and the best sportsbook to bet either moneyline, spreads, or over/unders on.
+                            I utilize a database to store information about odds and build my own api endpoints that my front end calls.
+                            This is only on my localhost as it is too expensive for me to deploy the front and backend " />
                 <Card githubUrl="https://github.com/JuDong1214/SpeedTyper" 
                     imgsrc={speed}
                     title = "Speed Typer Game"
@@ -65,11 +67,6 @@ class Cards extends Component {
                           decided to try to make projects revolving crypto currency. As a result, we developed and coded our first crypo trading model 
                           along with a sliding candle stick graph to visualize the cryptocurrency. It is a relatively simple model but it is a successful 
                           result that shows our interest in the financial industry!" />
-                <Card githubUrl="https://github.com/JuDong1214" 
-                    imgsrc={soon}
-                    title = "Project in Development"
-                    skills = "Full-Stack"
-                    text="Personal project in development, will be finished soon" />
             </div>
         );
     }
