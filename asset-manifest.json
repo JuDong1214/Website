@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/Website/static/css/main.15700594.css",
-    "main.js": "/Website/static/js/main.7144dd93.js",
+    "main.js": "/Website/static/js/main.ca124250.js",
     "static/media/ETH.png": "/Website/static/media/ETH.0bc8bca4b00c6f1e2a44.png",
+    "static/media/nbaodds.png": "/Website/static/media/nbaodds.9f573d1b8fd70f1831a5.png",
     "static/media/aaa.jpg": "/Website/static/media/aaa.dd41800aa8484e53d112.jpg",
     "static/media/Julians_Resume_2023_2024.pdf": "/Website/static/media/Julians_Resume_2023_2024.925ff99dc8182256318d.pdf",
     "static/media/TACG-VAR.png": "/Website/static/media/TACG-VAR.827690f76f1635bdbcd7.png",
@@ -13,10 +14,10 @@
     "static/media/soon.jpg": "/Website/static/media/soon.d1f720a39ab973815871.jpg",
     "index.html": "/Website/index.html",
     "main.15700594.css.map": "/Website/static/css/main.15700594.css.map",
-    "main.7144dd93.js.map": "/Website/static/js/main.7144dd93.js.map"
+    "main.ca124250.js.map": "/Website/static/js/main.ca124250.js.map"
   },
   "entrypoints": [
     "static/css/main.15700594.css",
-    "static/js/main.7144dd93.js"
+    "static/js/main.ca124250.js"
   ]
 }
